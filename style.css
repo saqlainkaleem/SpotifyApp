@@ -207,5 +207,38 @@ a{
     height: 50%;
     border-top: 1px solid white;
     opacity: 0.4;
+ }
 
+ .music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .album{
+    width: 25%;
+ }
+
+ .player{
+    width: 50%;
+ }
+
+ .controls{
+    width: 25%;
+ }
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+ }
+
+ .player-control-icon:hover{
+    opacity: 1;
  }
