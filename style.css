@@ -270,3 +270,67 @@ a{
     border-radius: 50%;
     margin-top: -6px;
  }
+
+ .album{
+    display: flex;
+    /* justify-content: space-between; */
+ }
+ .album .song-info img{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    padding-top: 1rem;
+ }
+
+ .album .song-info p{
+    font-size: 1rem;
+    padding-left: 3rem;
+ }
+
+.heart-icon{
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+}
+
+ .heart-icon:hover{
+    color: #1bd760;
+    transform: scale(1.1);
+ }
+
+ .share-icon{
+    padding-left: 1rem;
+ }
+
+ .share-icon:hover{
+    color: #1bd760;
+    transform: scale(1.1);
+ }
+
+ .controls{
+    display: flex;
+ }
+
+ .controls i{
+    padding-right: 1rem;
+ }
+
+.volume{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer ;
+}
+
+ .controls .volume::-webkit-slider-runnable-track{
+    background-color: #1bd760;
+    border-radius: 100px;
+    height: 0.5rem;
+ }
+
+ .volume::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: .8rem; 
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+ }
